@@ -1,0 +1,12 @@
+
+GUÍA DE USO - DETECTOR DE ROSTRO PERSONALIZADO (KEVIN)
+
+1. Abre una terminal y ubica la carpeta del proyecto.
+2. Instala las dependencias con:
+   pip install -r requirements.txt
+3. Coloca el archivo 'best.pt' (modelo entrenado) en la misma carpeta donde está 'app.py'.
+4. Ejecuta la app de detección con:
+   streamlit run app.py
+5. Sube una imagen para detectar el rostro.
+
+Este es un proyecto de ejemplo con un modelo YOLOv5 entrenado con 3 imágenes del rostro de Kevin.
