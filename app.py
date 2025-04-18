@@ -5,7 +5,7 @@ import torch
 st.title("Detección de Rostro - Kevin")
 st.write("Sube una imagen para detectar tu rostro usando el modelo personalizado.")
 
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='best.pt', source='local')
+model = torch.hub.load('ultralytics/yolov5', 'yolov5s')  # Este funciona siempre
 
 uploaded_file = st.file_uploader("Sube una imagen", type=["jpg", "jpeg", "png"])
 if uploaded_file:
